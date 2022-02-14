@@ -1,0 +1,72 @@
+.grid-container {
+	font-size: 24px;
+	color: #343e40;
+	font-size: 24px;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 80px 400px 1fr 250px;
+	grid-template-rows: 80px 1fr;
+	text-align: center;
+	font-weight: bold;
+}
+
+nav,
+section,
+main,
+aside {
+	padding: 24px;
+}
+
+nav {
+	background-color: #343e40;
+	color: white;
+	grid-row: 1/-1;
+}
+
+menu {
+	background-color: #b197fc;
+	color: #ffffff;
+	grid-column: 2/-1;
+	display: flex;
+	align-items: center;
+	padding: 0 40px;
+	gap: 12px;
+}
+aside {
+	background-color: #90c3f7;
+	color: #000000;
+}
+
+section {
+	overflow: scroll;
+	background-color: #e9ecef;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+button {
+	display: inline-block;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	background-color: #074c92;
+	padding: 8px 12px;
+	color: white;
+	border-radius: 3px;
+}
+
+button:last-child {
+	background-color: #e03131;
+	margin-left: auto;
+}
+
+.flex {
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 96px;
+	background-color: rgb(209, 209, 209);
+}
