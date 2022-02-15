@@ -1,0 +1,51 @@
+.cta-form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 3.2rem;
+	row-gap: 2.3rem;
+}
+
+.cta-form label {
+	display: block;
+	font-size: 1.6rem;
+	font-weight: 500;
+	margin-bottom: 1.2rem;
+}
+.cta-form input,
+.cta-form select {
+	width: 100%;
+	padding: 1.2rem;
+	font-size: 1.8rem;
+	font-family: inherit;
+	border: none;
+	background-color: #d9f9dd;
+	border-radius: 3px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	color: inherit;
+}
+
+.cta-form input::placeholder {
+	color: #aaa;
+}
+
+.cta *:focus {
+	outline: 1px solid rgb(65, 133, 55);
+}
+/* .cta-form label {} */
+/* .cta-form label {} */
+
+.btn--form {
+	background-color: #d9f9dd;
+	color: #47614b;
+	align-self: flex-end;
+	padding: 1.2rem;
+	margin: 0;
+	box-shadow: inset 0 1px 0 hsl(0deg 0% 100% / 20%),
+		inset 0 -1px 0 hsl(0deg 0% 100% / 10%), inset 1px 0 0 hsl(0deg 0% 100% / 5%),
+		inset -1px 0 0 hsl(0deg 0% 100% / 5%), 0 0px 1px rgb(0 0 0 / 60%);
+}
+
+.btn--form:hover {
+	background-color: #47614b;
+	color: white;
+}

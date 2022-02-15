@@ -3,6 +3,7 @@ import React from 'react';
 import './bjornsApp.css';
 import Header from './Header/Header';
 import HeroSection from './HeroSection/HeroSection';
+import Section from './Section/Section';
 
 const BjornsApp = () => {
 	return (
@@ -10,6 +11,7 @@ const BjornsApp = () => {
 			<Header />
 			<main>
 				<HeroSection />
+				<Section />
 			</main>
 		</div>
 	);
