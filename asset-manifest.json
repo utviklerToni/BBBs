@@ -1,12 +1,16 @@
 {
   "files": {
-    "main.css": "/BBBs/static/css/main.d39c19e5.css",
-    "main.js": "/BBBs/static/js/main.ead79563.js",
+    "main.css": "/BBBs/static/css/main.a2d0d62d.css",
+    "main.js": "/BBBs/static/js/main.f16aa718.js",
     "static/media/nathan-dumlao-IjovY65WQiE-unsplash.jpg": "/BBBs/static/media/nathan-dumlao-IjovY65WQiE-unsplash.10dfb6335f12cdbc5b0c.jpg",
     "static/media/man_eating.jpg": "/BBBs/static/media/man_eating.53dae7f1e00a9c4eb980.jpg",
     "static/media/paul-hermann-jeiqzOgwwKU-unsplash.jpg": "/BBBs/static/media/paul-hermann-jeiqzOgwwKU-unsplash.e4c47fdbf5347dcde120.jpg",
     "static/media/jon-tyson-kctt4tL1dkE-unsplash.jpg": "/BBBs/static/media/jon-tyson-kctt4tL1dkE-unsplash.88f63f997321b42a0762.jpg",
     "static/media/reiseuhu-IWfIWenzYyo-unsplash.jpg": "/BBBs/static/media/reiseuhu-IWfIWenzYyo-unsplash.d8b95f5ee19d07c0806a.jpg",
+    "static/media/Rubik-Regular.ttf": "/BBBs/static/media/Rubik-Regular.da39336cfcac7980f2f1.ttf",
+    "static/media/Rubik-Bold.ttf": "/BBBs/static/media/Rubik-Bold.383b8c94b12034c5e8b5.ttf",
+    "static/media/Rubik-ExtraBold.ttf": "/BBBs/static/media/Rubik-ExtraBold.b30aba6dab6c09b0ebcc.ttf",
+    "static/media/Rubik-Black.ttf": "/BBBs/static/media/Rubik-Black.2b561a8eed0dced30c19.ttf",
     "static/media/gallery-11.jpg": "/BBBs/static/media/gallery-11.2311a566925cddbe5061.jpg",
     "static/media/gallery-4.jpg": "/BBBs/static/media/gallery-4.0ef7428835ff66b781c6.jpg",
     "static/media/gallery-3.jpg": "/BBBs/static/media/gallery-3.706f692c125ff7b53f22.jpg",
@@ -28,11 +32,11 @@
     "static/media/techcrunch.png": "/BBBs/static/media/techcrunch.4d966bb9916d89bcae9c.png",
     "static/media/small_logoBBBs.png": "/BBBs/static/media/small_logoBBBs.854dc3f958ee03f6b04b.png",
     "index.html": "/BBBs/index.html",
-    "main.d39c19e5.css.map": "/BBBs/static/css/main.d39c19e5.css.map",
-    "main.ead79563.js.map": "/BBBs/static/js/main.ead79563.js.map"
+    "main.a2d0d62d.css.map": "/BBBs/static/css/main.a2d0d62d.css.map",
+    "main.f16aa718.js.map": "/BBBs/static/js/main.f16aa718.js.map"
   },
   "entrypoints": [
-    "static/css/main.d39c19e5.css",
-    "static/js/main.ead79563.js"
+    "static/css/main.a2d0d62d.css",
+    "static/js/main.f16aa718.js"
   ]
 }
