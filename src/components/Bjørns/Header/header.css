@@ -5,7 +5,7 @@
 
 .header {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	/* background-color: #fae5d3; */
 	background-color: #e0fae4;

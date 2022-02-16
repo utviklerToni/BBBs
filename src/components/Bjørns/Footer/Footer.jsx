@@ -80,7 +80,7 @@ const Footer = () => {
 						<ul className='footer-nav'>
 							<li>
 								<a href='/' className='footer-link'>
-									About BBS
+									About BBBs
 								</a>
 							</li>
 							<li>
