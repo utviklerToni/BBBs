@@ -4,6 +4,11 @@ import { Link } from 'react-router-dom';
 import './footer.css';
 import './footerQueries.css';
 
+import Facebook from '../../assets/svgs/Facebook';
+import Instagram from '../../assets/svgs/Instagram';
+import Twitter from '../../assets/svgs/Twitter';
+import Youtube from '../../assets/svgs/Youtube';
+
 const Footer = () => {
 	return (
 		<Fragment>
@@ -17,22 +22,22 @@ const Footer = () => {
 						<ul className='social-links'>
 							<li>
 								<a href='/' className='social-link'>
-									Facebook
+									<Facebook />
 								</a>
 							</li>
 							<li>
 								<a href='/' className='social-link'>
-									Twitter
+									<Twitter />
 								</a>
 							</li>
 							<li>
 								<a href='/' className='social-link'>
-									Youtube
+									<Youtube />
 								</a>
 							</li>
 							<li>
 								<a href='/' className='social-link'>
-									Instagram
+									<Instagram />
 								</a>
 							</li>
 						</ul>
