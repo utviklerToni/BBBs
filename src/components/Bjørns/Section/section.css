@@ -31,10 +31,12 @@
 .heading-secondary {
 	line-height: 1.2;
 	font-size: 4.5rem;
+	font-family: 'Rubik-ExtraBold';
 	font-weight: 700;
 	color: #333;
 	letter-spacing: -0.5px;
 	margin-bottom: 9.6rem;
+	text-shadow: 0px -1px 0px rgb(0 0 0 / 63%);
 }
 
 .subheading {
@@ -46,6 +48,7 @@
 	text-transform: uppercase;
 	margin-bottom: 1.6rem;
 	letter-spacing: 0.75px;
+	text-shadow: 0px -1px 0px rgb(0 0 0 / 63%);
 }
 
 .step-number {
@@ -60,6 +63,7 @@
 	font-size: 3rem;
 	line-height: 1.2;
 	margin-bottom: 3.2rem;
+	text-shadow: 0px -1px 0px rgb(0 0 0 / 63%);
 }
 
 .step-description {
@@ -353,6 +357,7 @@
 	color: #151d16;
 	font-weight: 700;
 	margin-bottom: 1.6rem;
+	text-shadow: 0px -1px 0px rgb(0 0 0 / 63%);
 }
 .feature-text {
 	font-size: 1.8rem;

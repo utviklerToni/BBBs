@@ -10,22 +10,30 @@ const Footer = () => {
 			<div className='footer'>
 				<div className='container grid grid--footer'>
 					<div className='logo-col'>
-						<Link to='/' className='footer-logo'>
+						<Link to='/' className='footer-logo footer-link'>
 							<div className='logo'>BJØRNS BEERS & BARS</div>
 						</Link>
 
 						<ul className='social-links'>
 							<li>
-								<a href='/'>Facebook</a>
+								<a href='/' className='social-link'>
+									Facebook
+								</a>
 							</li>
 							<li>
-								<a href='/'>Twitter</a>
+								<a href='/' className='social-link'>
+									Twitter
+								</a>
 							</li>
 							<li>
-								<a href='/'>Youtube</a>
+								<a href='/' className='social-link'>
+									Youtube
+								</a>
 							</li>
 							<li>
-								<a href='/'>Instagram</a>
+								<a href='/' className='social-link'>
+									Instagram
+								</a>
 							</li>
 						</ul>
 
@@ -37,14 +45,14 @@ const Footer = () => {
 						<p className='footer-heading'>Contact Us</p>
 						<address className='contacts'>
 							<p className='address'>
-								623 Harrison St., 2nd Floor, San Francisco, CA 94107
+								693 Bjørnveien gt. , 3rd Floor, Bjørn Bilder, Bergen 9369
 							</p>
-							<a href='tel:415-201-6370' className='footer-link'>
-								415-201-6370
+							<a href='tel:369-369-6969' className='footer-link'>
+								369-369-6969
 							</a>
 							<br />
 							<a href='mailto:hello@omnifood.com' className='footer-link'>
-								hello@omnifood.com
+								bjorn@bbbs.com
 							</a>
 						</address>
 					</div>
