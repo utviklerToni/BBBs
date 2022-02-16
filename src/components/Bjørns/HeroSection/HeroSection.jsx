@@ -3,16 +3,8 @@ import { Link } from 'react-router-dom';
 
 import './heroSection.css';
 import './heroSectionQueries.css';
-// import heroImage from '../../assets/imgs/beer_malt.jpeg';
-import heroImage from '../../assets/imgs/reiseuhu-IWfIWenzYyo-unsplash.jpg';
-// import heroImage from '../../assets/imgs/patrick-fore-rrvAuudnAfg-unsplash.jpg';
 
-import customer1 from '../../assets/imgs/customers/customer-1.jpg';
-import customer2 from '../../assets/imgs/customers/customer-2.jpg';
-import customer3 from '../../assets/imgs/customers/customer-3.jpg';
-import customer4 from '../../assets/imgs/customers/customer-4.jpg';
-import customer5 from '../../assets/imgs/customers/customer-5.jpg';
-import customer6 from '../../assets/imgs/customers/customer-6.jpg';
+import heroImage from '../../assets/imgs/reiseuhu-IWfIWenzYyo-unsplash.jpg';
 
 const HeroSection = () => {
 	return (
@@ -33,20 +25,6 @@ const HeroSection = () => {
 					<Link to='/' className='btn btn--outline'>
 						How its made &darr;
 					</Link>
-					{/* <div className='customer-feedback'>
-						<div className='customer-imgs'>
-							<img src={customer1} alt='customer-1' />
-							<img src={customer2} alt='customer-2' />
-							<img src={customer3} alt='customer-3' />
-							<img src={customer4} alt='customer-4' />
-							<img src={customer5} alt='customer-5' />
-							<img src={customer6} alt='customer-6' />
-						</div>
-						<p className='feedback-text'>
-							Customers to whom we delivered the <span>taste</span> of
-							authenticity.
-						</p>
-					</div> */}
 				</div>
 				<div className='hero-img-box'>
 					<img
