@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Fragment } from 'react/cjs/react.development';
 
 import './footer.css';
+import './footerQueries.css';
 
 const Footer = () => {
 	return (

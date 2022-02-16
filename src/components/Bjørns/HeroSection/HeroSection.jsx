@@ -2,8 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './heroSection.css';
-// import heroImage from '../../assets/beer_malt.jpeg';
+import './heroSectionQueries.css';
+// import heroImage from '../../assets/imgs/beer_malt.jpeg';
 import heroImage from '../../assets/imgs/reiseuhu-IWfIWenzYyo-unsplash.jpg';
+// import heroImage from '../../assets/imgs/patrick-fore-rrvAuudnAfg-unsplash.jpg';
+
 import customer1 from '../../assets/imgs/customers/customer-1.jpg';
 import customer2 from '../../assets/imgs/customers/customer-2.jpg';
 import customer3 from '../../assets/imgs/customers/customer-3.jpg';
@@ -30,7 +33,7 @@ const HeroSection = () => {
 					<Link to='/' className='btn btn--outline'>
 						How its made &darr;
 					</Link>
-					<div className='customer-feedback'>
+					{/* <div className='customer-feedback'>
 						<div className='customer-imgs'>
 							<img src={customer1} alt='customer-1' />
 							<img src={customer2} alt='customer-2' />
@@ -43,7 +46,7 @@ const HeroSection = () => {
 							Customers to whom we delivered the <span>taste</span> of
 							authenticity.
 						</p>
-					</div>
+					</div> */}
 				</div>
 				<div className='hero-img-box'>
 					<img

@@ -2,6 +2,8 @@ import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 
 import './section.css';
+import './sectionQueries.css';
+
 import Clock from '../../assets/svgs/Clock';
 import Pause from '../../assets/svgs/Pause';
 import Grain from '../../assets/svgs/Grain';
@@ -70,7 +72,7 @@ const Section = () => {
 				<div className='container grid grid--2-cols grid--center-x'>
 					{/* step - 01 */}
 					<div className='step-text-box'>
-						<p className='step-number'>01</p>
+						{/* <p className='step-number'>01</p> */}
 						<h3 className='heading-tertiary'>
 							We use organically raised cattles
 						</h3>
@@ -98,7 +100,7 @@ const Section = () => {
 						/>
 					</div>
 					<div className='step-text-box'>
-						<p className='step-number'>02</p>
+						{/* <p className='step-number'>02</p> */}
 						<h3 className='heading-tertiary'>
 							Join our weekly back-yard barbecue session
 						</h3>
@@ -111,7 +113,7 @@ const Section = () => {
 					</div>
 					{/* step - 03 */}
 					<div className='step-text-box'>
-						<p className='step-number'>03</p>
+						{/* <p className='step-number'>03</p> */}
 						<h3 className='heading-tertiary'>
 							Have your meals at your convenience
 						</h3>
@@ -136,14 +138,14 @@ const Section = () => {
 			{/* 3rd section */}
 			<section className='section-meals'>
 				<div className='container center-text'>
-					<span className='subheading'>Beers</span>
+					<span className='subheading'>Vegetarian</span>
 					<h2 className='heading-secondary'>
 						Choose our delicious vegetarians dishes.
 					</h2>
 				</div>
 
 				<div className='container grid grid--3-cols my-6'>
-					<div className='meal-box'>
+					<div className='meal-box meal-box_h'>
 						<img src={meal1} alt='meals' className='meal-img' />
 						<div className='meal-content'>
 							<div className='meal-tags'>
@@ -163,7 +165,7 @@ const Section = () => {
 							</ul>
 						</div>
 					</div>
-					<div className='meal-box'>
+					<div className='meal-box meal-box_h'>
 						<img src={meal2} alt='meals' className='meal-img' />
 						<div className='meal-content'>
 							<div className='meal-tags'>
@@ -290,40 +292,88 @@ const Section = () => {
 				</div>
 				<div className='gallery'>
 					<figure className='gallery-item'>
-						<img src={gallery1} alt='gallery1' className='meal-box' />
+						<img
+							src={gallery1}
+							alt='gallery1'
+							className='meal-box meal-box--sm-screen'
+						/>
 					</figure>
 					<figure className='gallery-item'>
-						<img src={gallery2} alt='gallery2' className='meal-box' />
+						<img
+							src={gallery2}
+							alt='gallery2'
+							className='meal-box meal-box--sm-screen'
+						/>
 					</figure>
 					<figure className='gallery-item'>
-						<img src={gallery3} alt='gallery3' className='meal-box' />
+						<img
+							src={gallery3}
+							alt='gallery3'
+							className='meal-box meal-box--sm-screen'
+						/>
 					</figure>
 					<figure className='gallery-item'>
-						<img src={gallery4} alt='gallery4' className='meal-box' />
+						<img
+							src={gallery4}
+							alt='gallery4'
+							className='meal-box meal-box--sm-screen'
+						/>
 					</figure>
 					<figure className='gallery-item'>
-						<img src={gallery5} alt='gallery5' className='meal-box' />
+						<img
+							src={gallery5}
+							alt='gallery5'
+							className='meal-box meal-box--sm-screen'
+						/>
 					</figure>
 					<figure className='gallery-item'>
-						<img src={gallery6} alt='gallery6' className='meal-box' />
+						<img
+							src={gallery6}
+							alt='gallery6'
+							className='meal-box meal-box--sm-screen'
+						/>
 					</figure>
 					<figure className='gallery-item'>
-						<img src={gallery7} alt='gallery7' className='meal-box' />
+						<img
+							src={gallery7}
+							alt='gallery7'
+							className='meal-box meal-box--sm-screen'
+						/>
 					</figure>
 					<figure className='gallery-item'>
-						<img src={gallery8} alt='gallery8' className='meal-box' />
+						<img
+							src={gallery8}
+							alt='gallery8'
+							className='meal-box meal-box--sm-screen'
+						/>
 					</figure>
 					<figure className='gallery-item'>
-						<img src={gallery9} alt='gallery9' className='meal-box' />
+						<img
+							src={gallery9}
+							alt='gallery9'
+							className='meal-box meal-box--sm-screen'
+						/>
 					</figure>
 					<figure className='gallery-item'>
-						<img src={gallery10} alt='gallery10' className='meal-box' />
+						<img
+							src={gallery10}
+							alt='gallery10'
+							className='meal-box meal-box--sm-screen'
+						/>
 					</figure>
 					<figure className='gallery-item'>
-						<img src={gallery11} alt='gallery11' className='meal-box' />
+						<img
+							src={gallery11}
+							alt='gallery11'
+							className='meal-box meal-box--sm-screen'
+						/>
 					</figure>
 					<figure className='gallery-item'>
-						<img src={gallery12} alt='gallery12' className='meal-box' />
+						<img
+							src={gallery12}
+							alt='gallery12'
+							className='meal-box meal-box--sm-screen'
+						/>
 					</figure>
 				</div>
 			</section>
@@ -354,7 +404,7 @@ const Section = () => {
 								</span>
 							</li>
 							<li className='list-item'>
-								<CheckedBox /> <span>Order timing between 11am - 5pm</span>
+								<CheckedBox /> <span>Order from 11am to 5pm</span>
 							</li>
 							<li className='list-item'>
 								<CheckedBox /> <span>No charge for Delivery </span>
@@ -369,7 +419,7 @@ const Section = () => {
 
 					<div className='meal-plan meal-plan--ni meal-box meal-box--slideout'>
 						<div className='plan-header'>
-							<p className='plan-name'>Starter</p>
+							<p className='plan-name'>Extra Large</p>
 							<p className='plan-price'>
 								<span>$</span>699
 							</p>
@@ -401,7 +451,7 @@ const Section = () => {
 
 					<div className='meal-plan meal-plan--seks meal-box meal-box--slideout'>
 						<div className='plan-header'>
-							<p className='plan-name'>Starter</p>
+							<p className='plan-name'>Large</p>
 							<p className='plan-price'>
 								<span>$</span>499
 							</p>
@@ -415,7 +465,7 @@ const Section = () => {
 								</span>
 							</li>
 							<li className='list-item'>
-								<CheckedBox /> <span>Order timing between 11am - 5pm</span>
+								<CheckedBox /> <span>Order from 11am to 5pm</span>
 							</li>
 							<li className='list-item'>
 								<CheckedBox /> <span>No charge for Delivery </span>

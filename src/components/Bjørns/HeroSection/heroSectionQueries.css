@@ -1,0 +1,53 @@
+/* all the media quries in here */
+
+/* below 1344px ; (84 x 16)px  */
+@media (max-width: 84em) {
+	.hero {
+		max-width: 120rem;
+	}
+
+	.heading-primary {
+		font-size: 4.4rem;
+	}
+
+	.gallery {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.hero {
+		gap: 4.8rem;
+	}
+}
+
+/* 944px (59em x 16px) */
+@media (max-width: 59em) {
+	.hero {
+		grid-template-columns: 1fr;
+		gap: 6.4rem;
+		padding: 0 8rem;
+	}
+
+	.hero-img-box,
+	.hero-text-box {
+		text-align: center;
+	}
+
+	.hero-img {
+		width: 60%;
+	}
+
+	.customer-feedback {
+		justify-content: center;
+		margin-top: 3.2rem;
+	}
+}
+
+@media (max-width: 23em) {
+	.btn,
+	.btn:link,
+	.btn:visited {
+		padding: 0.9rem 2.1rem;
+		margin: 0;
+		font-size: 1.8rem;
+	}
+}

@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 
 import './form.css';
+import './formQueries.css';
 
 const Form = () => {
 	return (

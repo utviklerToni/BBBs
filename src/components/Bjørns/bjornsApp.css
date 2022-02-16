@@ -5,12 +5,14 @@
 
 html {
 	font-size: 62.5%;
+	overflow-x: hidden;
 }
 
 body {
 	font-family: rubik;
 	line-height: 1;
 	font-weight: 400;
+	overflow-x: hidden;
 }
 
 strong {
@@ -22,6 +24,12 @@ strong {
 	padding: 0 3.2rem;
 	margin: 0 auto;
 }
+
+/* hamburger */
+.inline-div {
+	display: inline-block;
+}
+
 .btn,
 .btn:link,
 .btn:visited {
@@ -157,6 +165,7 @@ strong {
 	display: flex;
 	align-items: center;
 	gap: 1.6rem;
+	line-height: 1.2;
 }
 
 .center-text {

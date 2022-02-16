@@ -120,7 +120,7 @@
 	transition: all 0.27s ease-in-out;
 }
 
-.meal-box:hover {
+.meal-box_h:hover {
 	transform: translateY(-2rem);
 	box-shadow: 0 3.2rem 6.4 rgba(0, 0, 0, 0.06);
 }
@@ -251,7 +251,7 @@
 
 .meal-plan--tre {
 	background-color: #f7fef8;
-	justify-self: end;
+	/* justify-self: end; */
 	padding: 4.6rem;
 }
 

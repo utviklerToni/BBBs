@@ -5,19 +5,20 @@
 
 .header {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	/* background-color: #fae5d3; */
 	background-color: #e0fae4;
 	height: 9.6rem;
 	padding: 0 4.8rem;
+	position: relative;
 }
 
 .main-nav-list {
 	list-style: none;
 	display: flex;
 	align-items: center;
-	gap: 3.3rem;
+	gap: 4.2rem;
 }
 
 .main-nav-link:link,
@@ -65,4 +66,25 @@
 	/* background-color: #ee7300; */
 	background-color: #354938;
 	color: #fff;
+}
+
+/* hamburger mobile nav */
+
+.btn-mobile-nav {
+	display: flex;
+	border: none;
+	background: none;
+	cursor: pointer;
+	display: none;
+	z-index: 10;
+}
+
+.icon-mobile-nav {
+	height: 4.8rem;
+	width: 4.8rem;
+	color: #333;
+}
+
+.icon-mobile-nav[name='close-outline'] {
+	display: none;
 }
