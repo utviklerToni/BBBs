@@ -2,13 +2,20 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import './App.css';
-import BjornsApp from './components/Bjørns/BjornsApp';
+
+import Header from './components/Bjørns/Header/Header';
+import HeroSection from './components/Bjørns/HeroSection/HeroSection';
+import Section from './components/Bjørns/Section/Section';
 
 const App = () => {
 	return (
 		<Router>
 			<div>
-				<Route exact path='/' component={BjornsApp} />
+				<Header />
+				<main>
+					<HeroSection />
+					<Section />
+				</main>
 			</div>
 		</Router>
 	);
