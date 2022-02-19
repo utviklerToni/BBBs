@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react';
+import ShopItems from '../../components/ShopItems/ShopItems';
 
 const ShopPage = () => {
   return (
     <Fragment>
-      <h1>book a table</h1>
+      <ShopItems />
     </Fragment>
   );
 };
